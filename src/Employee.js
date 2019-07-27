@@ -23,7 +23,7 @@ class Employee extends Component {
         )
     }
     else {
-      this.setState({ employees: [], hasList: true })
+      this.setState({ hasList: true, show: undefined })
     }
 
   }
