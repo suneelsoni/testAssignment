@@ -59,3 +59,13 @@ table tr th, table tr td {
 table tr th {
   background: #cccccc;
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 20px;
+  }
+  .input-field {
+    width: 76%
+  }
+}
